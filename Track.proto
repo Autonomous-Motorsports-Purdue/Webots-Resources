@@ -6,7 +6,7 @@
 # The Ball's size, mass and color correspond to the soccer ball used in the Robocup SPL.
 # You can change the centerOfMass to [0 0 0] to avoid the random rolling effect.
 
-PROTO Ball [
+PROTO Track [
   field SFVec3f    translation     0 0 0.1625
   field SFRotation rotation        0 0 1 0
   field SFString   name            "ball"
